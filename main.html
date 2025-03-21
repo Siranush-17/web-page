@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HameghPatar</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="name">
+                <h1>HAMEGH PATAR</h1>
+            </div>
+
+            <div id="linkpar"></div>
+
+            <div class="navicons">
+                <div class="icons">
+                    <i class="fa-solid fa-user linksHover "></i>
+                    <i class="fa-solid fa-cart-shopping linksHover"></i>
+                    <i class="fa-solid fa-magnifying-glass linksHover"></i>
+                </div>
+              <a href="menu.html"><button class="navbutton">Order Online</button></a>
+            </div>
+        </nav>
+
+        <div class="textheader">
+            <h1 class="title">Fast Food Restaurant</h1>
+            <p class="text">Մեր ֆուդ կորտը իդեալական վայր է համեղ և բազմազան ուտելիքի սիրահարների համար:
+                 Մենք առաջարկում ենք արագ, թարմ և որակյալ սնունդ՝ հարմարեցված բոլոր ճաշակներին։ Այստեղ դուք կգտնեք տարբեր ուտեստներ,
+                 որոնք կպատրաստվեն հաշված րոպեների ընթացքում՝ ապահովելով արագ և հաճելի սնվելու փորձ:</p>
+            <a href="menu.html"><button class="navbutton button2 ">Order Online</button></a>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="saleline">
+            <div class="sale">
+                <div>
+                    <img src="./images/o1.jpg" alt="image" class="saleimg">
+                </div>
+                <div class="saletext">
+                    <h3>Tasty Thursdays</h3>
+                    <h1 class="pracent">20% off</h1>
+                    <a href="menu.html"><button class="navbutton button3 ">Order Now <i class="fa-solid fa-cart-shopping linksHover"></i></button></a>
+                </div>
+                
+            </div>
+            
+            <div class="sale">
+                <div>
+                    <img src="./images/o2.jpg" alt="image" class="saleimg">
+                </div>
+                <div class="saletext">
+                    <h3>Pizza Days</h3>
+                    <h1 class="pracent">15% off</h1>
+                    <a href="menu.html"><button class="navbutton button3 ">Order Now <i class="fa-solid fa-cart-shopping linksHover"></i></button></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="menutitle">Our Menu</h1>
+        <div class="menubar">
+            <ul class="menulink">
+                <li class="menubutton">All</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+                <li>pizza</li>
+            </ul>
+        </div>
+
+        <div id="allmenu"></div>
+        <button  id="loadMoreBtn" onclick="loadGoods()">Show more</button> 
+    </section>
+
+    <section class="aboutsection">
+        <div class="paralex">
+            <div class="z1"></div>
+            <div class="z2"></div>
+            <div class="z3"></div>
+        </div>
+
+        <div class="abouttext">
+            <h1>Մենք համեղ պատառն ենք</h1>
+            <p class="mermasin"> Մենք՝ արագ սննդի կետ ենք, որտեղ կարող եք վայելել համեղ և արագ պատրաստվող ուտեստներ: 
+                Մեր մենյուն ընդգրկում է բազմազան պիցցաներ, թարմ պատրաստված պաստա և այլ հագեցնող
+                 ուտեստներ, որոնք կգոհացնեն ցանկացած ճաշակ։ Այցելեք մեզ՝ արագ, համեղ և մատչելի սնվելու համար։
+            </p>
+            <a href="menu.html">
+                <button class="navbutton button3 ">Order Now<i class="fa-solid fa-cart-shopping linksHover"></i></button>
+            </a>
+        </div>
+    </section>
+
+    <section class="inputssection">
+        <h1 class="book">Book A Table</h1>
+        <div class="allinputs">
+            <div class="bookinfo">
+                <input type="text" class="inputs" placeholder="Your Name">
+                <input type="text" class="inputs" placeholder="Phone Number">
+                <input type="email" class="inputs" placeholder="Your Email">
+                <input type="date" class="inputs">
+            </div>
+
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.1181230583338!2d44.525016593445365!3d40.18155559556905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcef168848a3%3A0xe3d76213e5f9a69e!2z1YDVodW01aXVsiDVutWh1b_VodW81bbVpdaA!5e0!3m2!1sru!2sam!4v1729576603627!5m2!1sru!2sam" width="600" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div>
+                <a href="menu.html"><button class="navbutton bookbutton">Book Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="contactul">
+            <li class="contact">Contact Us</li>
+            <li ><i class="fa-solid fa-location-dot"></i> <span>  Location</span></li>
+            <li > <i class="fa-solid fa-phone"></i> <span>  Call (+374) 91993131</span></li>
+            <li ><i class="fa-solid fa-envelope"></i><span>  hameghpatar@gmail.com</span></li>
+            <div class="sites">
+                <a href="https://www.instagram.com/hamex__patar/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Hovohovohamexpatar/?locale=hy_AM"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/Hovohovohamexpatar/?locale=hy_AM"><i class="fa-brands fa-facebook-messenger"></i></a>
+            </div>
+        </ul>
+
+        <ul class="contactul">
+            <li class="contact">Oppening Hours</li>
+            <li >Everyday</li>
+            <li >09:00 - 16:30</li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
